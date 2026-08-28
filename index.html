@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Cal </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container main-cont ">
+    <div class="left ">
+   
+   <form class="container m-5  p-4 shadow rounded">
+
+    <h2 class="text-center mb-4">Car Installment Calculator</h2>
+        <p class="text-center">Enter your car details below to calculate your monthly installment.</p>
+
+    <div class="mb-3">
+        <label for="brand" class="form-label">Car Brand</label>
+        <input type="text" id="brand" class="form-control" placeholder="Enter car brand">
+    </div>
+
+    <div class="mb-3">
+        <label for="year" class="form-label">Model Year</label>
+        <input type="number" id="year" class="form-control" placeholder="Enter model year">
+    </div>
+
+    <div class="mb-3">
+        <label for="price" class="form-label">Car Price</label>
+        <input type="number" id="price" class="form-control" placeholder="Enter car price">
+    </div>
+
+    <div class="mb-3">
+        <label for="downPayment" class="form-label">Down Payment</label>
+        <input type="number" id="downPayment" class="form-control" placeholder="Enter down payment">
+    </div>
+
+    <div class="mb-3">
+        <label for="period" class="form-label">Installment Period</label>
+        <select id="period" class="form-select">
+            <option selected>Select period</option>
+            <option value="12">12 Months</option>
+            <option value="24">24 Months</option>
+            <option value="36">36 Months</option>
+            <option value="48">48 Months</option>
+            <option value="60">60 Months</option>
+        </select>
+    </div>
+
+    <div class="mb-5">
+    <label for="interest" class="form-label">Interest Rate</label>
+    <input type="number" id="interest" class="form-control" placeholder="Enter interest rate">
+</div>
+
+    <button type="submit" class="btn btn-dark w-100 mb-3">
+        Calculate Installment
+    </button>
+
+</form>
+</div>
+
+<div class="right ">
+    <img src="photo_5803443515432833207_x.jpg" alt="car">
+    <h4>Payment Details</h4>
+
+    <div class="info">
+    <section>
+     <span>Car Brand :</span> <span>Toyota</span>
+    </section>
+
+    <section>
+     <span>Model Year :</span> <span>2024</span>
+    </section>
+
+    <section>
+     <span>Price Car :</span> <span>800,000 EGP</span>
+    </section>
+
+    <section>
+     <span>Down Payment :</span> <span>200,000 EGP</span>
+    </section>
+
+    <section>
+     <span>Installment Period :</span> <span>36 Months</span>
+    </section>
+
+    <section>
+     <span>Interest Rate :</span> <span>10%</span>
+    </section>
+    
+   </div>
+<div class="box">
+   <div class="mess">
+    <p>Total Amount Paid</p>
+    <span class="fw-bold fs-2">21,667 EGP</span>
+   </div>
+   <div class="mess">
+    <p>Monthly Installment</p>
+    <span class="fw-bold fs-2">21,667 EGP</span>
+   </div>
+
+   </div>
+
+</div>
+
+</div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

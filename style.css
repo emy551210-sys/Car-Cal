@@ -1,0 +1,59 @@
+.bo
+ .form-control:focus,.form-select:focus {
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.15) !important;
+}
+.main-cont {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.left {
+    width: 45%;
+}
+
+.right { 
+    background-color: #ffffff;
+    border-radius: 8px; 
+    padding: 24px;
+    width: 45%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+    margin-top: 49px;
+    gap: 20px;
+}
+
+img{
+    width: 536px;
+    border-radius: 20px;
+}
+
+.right h4
+{
+    padding:20px;
+}
+section
+{
+    padding: 10px;
+     border-bottom: 1px solid  rgba(0, 0, 0, 0.15) ;
+}
+section:last-child
+{
+    border-bottom: none;
+}
+.box
+{
+    background-color: black;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.mess span, .mess p
+{
+    color: white;
+
+}
+    
