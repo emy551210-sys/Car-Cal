@@ -7,8 +7,6 @@ document.getElementById('interest').addEventListener('keyup',cal)
 
 function cal()
 {
-   
-
    var priceCar = document.getElementById('price').value
    var downPayment = document.getElementById('downPayment').value
    var installmentPeriod = document.getElementById('period').value
@@ -50,8 +48,6 @@ function cal()
       var monthlyInstallment = totalInstallments / totalMonths
 
     document.querySelector('.text').innerText = parseFloat(monthlyInstallment)+ ' EGP'
-     document.querySelector('.text').classList.remove('alert', 'alert-danger','text-danger')
-     //document.querySelector('.text').classList.add('alert', 'alert-dark','text-dark')
      document.querySelector('.text').classList.add('alert', 'alert-success','text-success')
 
       
